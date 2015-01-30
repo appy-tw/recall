@@ -8,6 +8,8 @@
 // 'test/spec/**/*.js'
 
 module.exports = function (grunt) {
+  var url = require('url');
+  var proxy = require('proxy-middleware');
 
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
@@ -18,7 +20,7 @@ module.exports = function (grunt) {
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
-    dist: 'dist'
+    dist: 'dist/app'
   };
 
   // Define the configuration for all the tasks
@@ -81,7 +83,8 @@ module.exports = function (grunt) {
                 '/bower_components',
                 connect.static('./bower_components')
               ),
-              connect.static(appConfig.app)
+              connect.static(appConfig.app),
+              connect().use('/proxy', proxy(url.parse('http://www.ris.gov.tw')))
             ];
           }
         }
@@ -323,6 +326,11 @@ module.exports = function (grunt) {
             'fonts/**',
           ],
           dest: '<%= yeoman.dist %>'
+        }, {
+          expand: true,
+          cwd: '.',
+          dest: './dist/',
+          src: ['server.js', 'package.json']
         }]
       },
       styles: {
