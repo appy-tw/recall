@@ -4,7 +4,7 @@
 
 require('shelljs/global');
 
-var RE_VILLAGE = /(.+?)\s*([\d\-、]+)/;
+var RE_VILLAGE = /(.+?)\s*([\d\-;]+)/;
 
 var csv = cat('raw/135_polling-stations_20150125.csv').split('\n');
 
@@ -33,7 +33,7 @@ csv.forEach(function(line, i) {
         stations: []
       };
     }
-    neighbourhood.split('、').forEach(function(item) {
+    neighbourhood.split(';').forEach(function(item) {
       if (item.indexOf('-') !== -1) {
         var details = item.split('-').map(function(d) {
           return parseInt(d);
