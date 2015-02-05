@@ -11,6 +11,8 @@ default_email=
 #repository to deploy to. must be readable and writable.
 repo=origin
 
+grunt build
+
 # Parse arg flags
 while : ; do
 	if [[ $1 = "-v" || $1 = "--verbose" ]]; then
@@ -61,7 +63,7 @@ function restore_head {
 	else
 		git symbolic-ref HEAD refs/heads/$previous_branch
 	fi
-	
+
 	git reset --mixed
 }
 

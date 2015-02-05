@@ -8,7 +8,7 @@
  * Controller of the recallApp
  */
 angular.module('recallApp')
-  .controller('MainCtrl', function ($scope, $http) {
+  .controller('SearchCtrl', function ($scope, $http) {
     $scope.selected = {
       section: '無'
     };
