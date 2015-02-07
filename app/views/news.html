@@ -1,0 +1,26 @@
+<div layout="column" class="main-panel">
+  <md-whiteframe class="md-whiteframe-z1" layout="column">
+    <md-toolbar>
+      <h2 class="md-toolbar-tools">
+        <span>最新消息</span>
+      </h2>
+    </md-toolbar>
+    <md-content layout-padding>
+      <div ng-repeat="feed in feeds">
+        <div layout="row" layout-padding >
+            <img style="min-width:25px" src="images/Triangle.svg"/>
+            <h2 class="news-title"> {{feed.title}} </h2>
+        </div>
+        <div layout="row" >
+            <div style="width:100%;text-align:right;">
+              <h4 > {{feed.date}} </h4>
+            </div>
+        </div>
+        <div layout="row"  layout-padding>
+            <p>{{feed.contentSnippet | htmlToPlaintext}} <span class="read-more"><a href="{{feed.link}}" target="_blank">Read more</a></span></p>
+        </div>
+        <hr/>
+      </div>
+    </md-content>
+  </md-whiteframe>
+</div>

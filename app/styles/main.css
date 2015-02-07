@@ -12,6 +12,7 @@
 
 body {
   background-image: url(../images/bg-texture.jpg);
+  background-repeat: repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -57,4 +58,15 @@ body {
 .main-panel {
   margin-top: -100px;
 }
+.read-more a{
+  color:rgb(235,92,88);
 
+}
+.checkin-button{
+  color:#ffffff;
+  padding:10px 40px 10px 40px;
+  background:rgb(235,92,88);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
