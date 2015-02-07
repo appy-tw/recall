@@ -53,6 +53,14 @@ body {
   display: inline-block;
   padding:10px;
   cursor: pointer;
+  color:#ffffff;
+  font-size:150%;
+  text-decoration: none;
+}
+
+.nav img{
+  display: inline;
+  max-height:30px;
 }
 
 .main-panel {
@@ -62,11 +70,7 @@ body {
   color:rgb(235,92,88);
 
 }
-.checkin-button{
-  color:#ffffff;
-  padding:10px 40px 10px 40px;
-  background:rgb(235,92,88);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
+.title-img{
+  display: inline;
+  max-height:35px;
 }
