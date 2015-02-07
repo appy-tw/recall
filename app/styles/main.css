@@ -1,5 +1,5 @@
 .main-panel {
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
   padding-top: 20px;
 }
@@ -50,11 +50,23 @@ body {
 }
 .nav a {
   display: inline-block;
-  padding:10px;
+  padding: 10px;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 .main-panel {
   margin-top: -100px;
 }
 
+.panel-header {
+  background-color: #4A4A4A;
+}
+
+.panel-header h2 {
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 0;
+  color: white;
+}
