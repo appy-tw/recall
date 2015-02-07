@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-6-+-Imported-Layers-4" sketch:type="MSLayerGroup" transform="translate(2.000000, 1.000000)">
+            <circle id="Oval-6" fill="#F6A623" filter="url(#filter-1)" sketch:type="MSShapeGroup" cx="17.5" cy="17.5" r="17.5"></circle>
+            <path d="M20.5833965,23.8831662 C15.6928218,27.1497026 10.0078027,25.0865915 7.60415517,21.5491432 C5.09944253,17.8627524 5.55899808,12.7148367 8.76459195,9.62986351 C12.1523391,6.36948037 17.254569,6.10362597 21.0357874,9.03948803 C24.3599789,11.6203999 25.9132969,16.9763463 22.9044387,21.5226758 C23.0023008,21.6265225 23.1029444,21.7387141 23.2094042,21.8452581 C24.5493812,23.1865838 25.8885153,24.5288367 27.2320326,25.8667907 C27.7060862,26.3389057 27.9988295,26.8778635 27.8437337,27.5645838 C27.5456801,28.8836566 26.0040785,29.3481011 25.0156801,28.402944 C24.1023851,27.5294344 23.2176647,26.6258329 22.3318487,25.72417 C21.7330441,25.1147447 21.1543008,24.4858482 20.5833965,23.8831662 L20.5833965,23.8831662 Z M21.1407299,16.3046298 C21.1659329,13.0497256 18.5599866,10.4019708 15.2982548,10.36817 C12.0424234,10.3344536 9.36415517,12.9511049 9.34055364,16.1887294 C9.31653065,19.4887294 11.9016571,22.1365685 15.1826916,22.1725608 C18.4523467,22.2084689 21.1153582,19.5857486 21.1407299,16.3046298 L21.1407299,16.3046298 Z" id="Imported-Layers-4" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

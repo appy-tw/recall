@@ -1,5 +1,5 @@
 .main-panel {
-  max-width: 800px;
+  max-width: 600px;
   margin: auto;
   padding-top: 20px;
 }
@@ -12,6 +12,7 @@
 
 body {
   background-image: url(../images/bg-texture.jpg);
+  background-repeat: repeat;
   position: absolute;
   top: 0;
   left: 0;
@@ -50,23 +51,26 @@ body {
 }
 .nav a {
   display: inline-block;
-  padding: 10px;
+  padding:10px;
   cursor: pointer;
+  color:#ffffff;
+  font-size:150%;
   text-decoration: none;
-  color: white;
+}
+
+.nav img{
+  display: inline;
+  max-height:30px;
 }
 
 .main-panel {
   margin-top: -100px;
 }
+.read-more a{
+  color:rgb(235,92,88);
 
-.panel-header {
-  background-color: #4A4A4A;
 }
-
-.panel-header h2 {
-  text-align: center;
-  line-height: 60px;
-  margin-bottom: 0;
-  color: white;
+.title-img{
+  display: inline;
+  max-height:35px;
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-6-+-Fill-11" sketch:type="MSLayerGroup" transform="translate(-54.000000, -6.000000)" fill="#FFFFFF">
+            <path d="M24.336,6 L24.336,10.368 C24.068,10.368 23.811,10.365 23.554,10.368 C22.837,10.377 22.119,10.362 21.405,10.405 C20.808,10.442 20.56,10.7 20.543,11.298 C20.516,12.229 20.535,13.163 20.535,14.149 L24.35,14.149 C24.226,15.548 24.107,16.892 23.983,18.291 L20.531,18.291 L20.531,30.722 L15.577,30.722 L15.577,18.382 L13,18.382 L13,14.163 L15.564,14.163 C15.564,13.673 15.563,13.226 15.564,12.778 C15.567,11.952 15.547,11.125 15.583,10.301 C15.68,8.044 16.921,6.534 19.156,6.244 C20.846,6.026 22.569,6.073 24.336,6 L100.524437,64.8661875" id="Fill-11" sketch:type="MSShapeGroup"></path>
+        </g>
+        <path d="M0,25 L0,0 L25,12.5 L0,25 Z" id="Triangle-2" fill="#DD6C61" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>
